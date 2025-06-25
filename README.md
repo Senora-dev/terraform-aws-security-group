@@ -13,7 +13,7 @@ This Terraform module creates and manages security groups with configurable ingr
 
 ```hcl
 module "security_group" {
-  source = "path/to/terraform-aws-security-group"
+  source = "Senora-dev/security-group/aws"
 
   name        = "my-sg"
   description = "Security group for my app"
